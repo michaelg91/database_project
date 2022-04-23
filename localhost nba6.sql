@@ -1,5 +1,5 @@
 --Zadanie 6 -- Sezon regularny
---Korzystaj¹c z widoku zmaterializowanego poka¿ najlepiej punktuj¹cych zawodników SZ i PO
+--Korzystajac z widoku zmaterializowanego pokaz najlepiej punktujacych zawodnikow SZ i PO
 create materialized view mv_leader_ppg
 build immediate 
 refresh force

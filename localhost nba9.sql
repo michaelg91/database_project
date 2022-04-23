@@ -1,7 +1,7 @@
 -- Zadanie 9
-/*Po ka¿dej aktualizacji danych procedur¹ z punktu 8 powinniœmy
-mieæ wpis we wczeœniej stworzonej tabeli logów 
-z informacj¹ co i na co zosta³o zmienione. Wykorzystaj funkcjonalnoœæ triggerów*/
+/*Po kazdej aktualizacji danych procedura z punktu 8 powinnismy
+miec wpis we wczesniej stworzonej tabeli logow 
+z informacja co i na co zostalo zmienione. Wykorzystaj funkcjonalnosc triggerow*/
 create table players_log (id int generated always as identity,update_time timestamp, old_data varchar(50), new_data varchar(50))
 /
 CREATE OR REPLACE TRIGGER trig_players

@@ -1,5 +1,5 @@
 -- Zadanie 3 pierwsza opcja
--- Poka¿ najs³abiej punktuj¹cego œrednio na minutê zawodnika ka¿dej dru¿yny (SZ+PO)
+-- Pokaz najslabiej punktujacego srednio na minute zawodnika kazdej druzyny (SZ+PO)
 select * from (
 select
     t1.full_name,

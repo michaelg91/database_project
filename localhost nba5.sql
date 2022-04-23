@@ -1,5 +1,5 @@
 --Zadanie 5 Sezon regularny
---Wska¿ najlepiej rzucaj¹cego rzuty osobiste na ka¿dej pozycji osobno dla SZ i PO
+--Wskaz najlepiej rzucajacego rzuty osobiste na kazdej pozycji osobno dla SZ i PO
 select
     p.full_name,
     o.position,

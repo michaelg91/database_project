@@ -1,5 +1,5 @@
 --Zadanie 4 Sezon Regularny
---Poka¿ nazwisko zawodnika, który spêdzi³ najwiêcej czasu na parkiecie(SZ, PO, SZ+PO)
+--Pokaz nazwisko zawodnika, ktory spedzil najwiecej czasu na parkiecie(SZ, PO, SZ+PO)
 select
     p.full_name,
     g.rs_minutes_per_game

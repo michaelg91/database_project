@@ -1,5 +1,5 @@
 -- Zadanie 2
--- Stwórz ranking 10 najlepiej zbieraj¹cych i przechwytuj¹cych graczy (SZ)
+-- Stworz ranking 10 najlepiej zbierajacych i przechwytujacych graczy
 -- Przechwyty
 select
     *

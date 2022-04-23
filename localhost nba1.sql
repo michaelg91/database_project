@@ -1,5 +1,5 @@
 -- Zadanie 1
--- Poka¿ najstarszego zawodnika w ka¿dym zespole w sezonie zasadniczym (SZ)
+-- Pokaz najstarszego zawodnika w kazdym zespole w sezonie zasadniczym (SZ)
 select
     p.full_name,
     p.age,
@@ -14,3 +14,10 @@ where (p.age , t.full_name_team) IN
                JOIN teams t ON t.idteam = pt.teamid
     group by t.full_name_team
     )
+/	
+-- Zadanie 1 druga opcja
+select t.team, max(p.age) as age,
+       max(p.full_name) keep (dense_rank FIRST order by p.age desc) as person
+from players p JOIN player_team pt ON p.idplayer = pt.playerid
+               JOIN teams t ON t.idteam = pt.teamid
+group by t.team

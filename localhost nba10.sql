@@ -1,5 +1,5 @@
 --Zadanie 10
---Stwórz widok, który poka¿e ile procent punktów zdoby³ ka¿dy zawodnik wzglêdem wszystkich punktów swojej dru¿yny
+--Stworz widok, ktory pokaze ile procent punktow zdobyl kazdy zawodnik wzgledem wszystkich punktow swojej druzyny
 select
     t1.*,
     concat(round(t1.points_per_game/t1.team_points * 100,2), '%')procent

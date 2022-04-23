@@ -1,4 +1,4 @@
--- Tworzenie tabel i relacji (Creating tables and relationships)
+-- Tworzenie tabel i relacji pomiedzy nimi
 
 create table nbaregularseason (
     Ranking int,

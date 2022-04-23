@@ -1,5 +1,5 @@
 --Zadanie 8
---Stwórz procedurê, która pozwoli zaktualizowaæ dowolne dane ka¿dego zawodnika
+--Stworz procedure, która pozwoli zaktualizowac dowolne dane kazdego zawodnika
 create or replace NONEDITIONABLE PROCEDURE PRO_PLAYERS 
 (
   VAR_FULL_NAME IN VARCHAR2 

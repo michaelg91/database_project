@@ -1,6 +1,6 @@
 -- Zadanie 7
-/* Poka¿ punktacjê kanadyjsk¹(punkt + asysty) dla zawodników
-o nazwiskach Jones, Brown, Bridges, Simmons i Thomas. Wykorzystaj wyra¿enia regularne */
+/* Pokaz punktacje kanadyjska(punkt + asysty) dla zawodnikow
+o nazwiskach Jones, Brown, Bridges, Simmons i Thomas. Wykorzystaj wyrazenia regularne */
 select
     p.full_name,
     t.team,
