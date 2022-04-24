@@ -1,5 +1,7 @@
 --Zadanie 10
 --Stworz widok, ktory pokaze ile procent punktow zdobyl kazdy zawodnik wzgledem wszystkich punktow swojej druzyny
+CREATE OR REPLACE VIEW view_procent
+AS
 select
     t1.*,
     concat(round(t1.points_per_game/t1.team_points * 100,2), '%')procent
